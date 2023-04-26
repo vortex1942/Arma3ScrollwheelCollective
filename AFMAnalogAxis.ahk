@@ -88,11 +88,3 @@ F1::
 
 	VJoy_SetAxis(val, vjoy_id, HID_USAGE_SL0)
 	return
-
-
-x::
-	val = 32767
-	VJoy_SetAxis(val, vjoy_id, HID_USAGE_SL0)
-	sleep, 500
-	val = 0
-	VJoy_SetAxis(val, vjoy_id, HID_USAGE_SL0)
