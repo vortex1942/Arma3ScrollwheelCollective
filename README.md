@@ -13,6 +13,8 @@ Shift + F1           : Close script
 * AutoHotkey atleast v1.1.36.02, Found here https://www.autohotkey.com/
 
 ## Installation
+Download a release from here: https://github.com/vortex1942/Arma3ScrollwheelCollective/releases/tag/v1.0.0
+
 1. Install AHK & VJOY
 2. Open vJoyConf.exe and disable all tickboxes except "Slider
 3. Run AxisKeybinding.ahk
