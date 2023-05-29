@@ -54,3 +54,22 @@ x::
 	VJoy_SetAxis(val, vjoy_id, HID_USAGE_SL0)
 	SoundBeep
 	Return
+
+z::
+	SoundBeep
+	; Raise from 50% to 100%
+	xval = 16383
+	VJoy_SetAxis_X(xval, vjoy_id)
+	sleep, 500
+	xval = 32767
+	VJoy_SetAxis_X(xval, vjoy_id)
+	sleep, 500
+
+	; Lower from 50% to 0%
+	xval = 16383
+	VJoy_SetAxis_X(xval, vjoy_id)
+	sleep, 500
+	xval = 0
+	VJoy_SetAxis_X(xval, vjoy_id)
+	SoundBeep
+	Return
