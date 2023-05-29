@@ -1,9 +1,9 @@
 # AFMAnalogAxis.ahk
-Creates an analog axis which is controlled via scrollwheel inputs
+* Creates an analog axis which is controlled via scrollwheel inputs
 # SFMCollective&Trim
-Adds a pitch trimmer function, requires X axis to be enabled.
-Trim can be overruled with manual input.
-An overlay appears while trim is enabled.
+* Adds a pitch trimmer function, requires X axis to be enabled.
+* Trim can be overruled with manual input.
+* An overlay appears while trim is enabled.
 ![image](https://github.com/vortex1942/Arma3ScrollwheelCollective/assets/22815407/42e5af8a-f7e3-44e2-b16b-12c9343604a7)
 
 
